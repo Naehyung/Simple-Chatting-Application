@@ -1,0 +1,19 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserMapping {
+	
+	public List<User> findList();
+	
+	public User findOneByEmail(String email);
+	
+	public void save(User user);
+	
+	public void update(User user);
+	
+
+}

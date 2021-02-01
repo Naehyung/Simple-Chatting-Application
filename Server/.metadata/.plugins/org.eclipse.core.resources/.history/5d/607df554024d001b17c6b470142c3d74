@@ -1,0 +1,29 @@
+package com.example.demo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+	@GetMapping(path="/hello")
+	@ResponseBody
+	public Map<String, String> Controller() {
+		
+		Map<String, String> list = new HashMap<>();
+		
+		list.put("userId", "1");
+		list.put("email", "naehyung");
+		list.put("password", "123123");
+		
+		return list;
+		
+		
+	}
+	
+
+}

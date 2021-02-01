@@ -1,0 +1,8 @@
+spring.datasource.driverClassName= org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=2173
+
+#mybatis mapping type shorter
+mybatis.type-alases-package=com.exmaple.demo
+mybatis.mapper-locations=mapper/**/*.xml

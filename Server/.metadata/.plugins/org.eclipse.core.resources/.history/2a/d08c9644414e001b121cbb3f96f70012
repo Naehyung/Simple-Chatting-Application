@@ -1,0 +1,11 @@
+package com.example.demo.user;
+
+public class User {
+	
+	private Integer id;
+	private String email;
+	private String password;
+	
+	
+
+}

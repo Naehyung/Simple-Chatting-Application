@@ -1,0 +1,17 @@
+package com.example.demo.user;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	UserService userService;
+	
+	@RequestMapping(value ="/")
+	public String home() throws Exception{
+		return "Hello World";
+	}
+
+}

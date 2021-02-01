@@ -1,0 +1,5 @@
+package com.server.accessingdatamysql;
+
+public class UserRepository {
+
+}

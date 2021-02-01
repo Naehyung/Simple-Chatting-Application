@@ -1,0 +1,19 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class userService {
+
+	@Autowired
+	public userMapper mapper;
+	
+	public List<User> selectUser() {
+		
+		return mapper.selectUser();
+	}
+	
+}

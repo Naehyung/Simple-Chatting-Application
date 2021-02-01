@@ -1,0 +1,7 @@
+spring.datasource.hikari.maximum-pool-size = 4
+spring.datasource.url = URL
+spring.datasource.username = username
+spring.datasource.password = password
+
+mybatis.type-aliases-package = com.example.bamdule.model
+mybatis.mapper-locations = mapper/xml/*.xml  
