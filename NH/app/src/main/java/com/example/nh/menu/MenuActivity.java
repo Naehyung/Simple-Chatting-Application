@@ -40,13 +40,17 @@ public class MenuActivity extends AppCompatActivity {
 
 
 
+
+
     }
 
-    public void reloadFragment() {
-        adapter.notifyDataSetChanged();
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (!(adapter == null)) {
+            adapter.notifyDataSetChanged();
+        }
     }
-
-
 
 
 }

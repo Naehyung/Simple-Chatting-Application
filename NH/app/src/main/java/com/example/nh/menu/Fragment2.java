@@ -134,7 +134,7 @@ public class Fragment2 extends Fragment {
             @Override
             public void onResponse(Call<List<ChatRoom>> call, Response<List<ChatRoom>> response) {
                 Log.d(TAG, username+"hi");
-                Log.d(TAG, response.body().get(0).getRoomId());
+                //Log.d(TAG, response.body().get(0).getRoomId());
                 for(ChatRoom chatRoomTemp: response.body()) {
 
                     Log.d(TAG, chatRoomTemp.getRoomId());
@@ -156,6 +156,9 @@ public class Fragment2 extends Fragment {
         // Inflate the layout for this fragment
         return view;
     }
+
+
+
 
     public void sendEchoViaRest(String USERNAME1, String USERNAME2) {
 

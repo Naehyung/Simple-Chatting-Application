@@ -34,4 +34,16 @@ public class DataItem implements Serializable {
     public void setId(Integer id) {
         this.id = id;
     }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setViewType(int viewType) {
+        this.viewType = viewType;
+    }
 }

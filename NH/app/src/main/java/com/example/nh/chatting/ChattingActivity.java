@@ -86,6 +86,16 @@ public class ChattingActivity extends AppCompatActivity {
 
         for(DataItem dataItem : chatRoom.getDataItemList()) {
 
+            if(dataItem.getName().equals(USERNAME1)){
+
+                dataItem.setViewType(1);
+
+            } else {
+
+                dataItem.setViewType(0);
+
+            }
+
             addItem(dataItem);
 
         }
@@ -105,6 +115,7 @@ public class ChattingActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 sendEchoViaStomp();
+                editTextMessageLine.setText("");
 
             }
         });
