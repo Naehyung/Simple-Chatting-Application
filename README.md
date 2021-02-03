@@ -1,5 +1,5 @@
 # Simple-Chatting-Application
-Simple chatting application using Restful API, WebSocket, Stomp and Android Studio
+Simple chatting application using Restful API, WebSocket, Stomp, and SQL in java.
 
 ## Features
 - User Login.
