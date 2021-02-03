@@ -2,9 +2,11 @@
 Simple chatting application using Restful API, WebSocket, Stomp and Android Studio
 
 ## Features
-- User Login
-- Create a chatting room
-- Chatting with other users
+- User Login.
+- Create an user.
+- Create a chatting room.
+- Chatting with other users.
+- Save and Update all the data automatically in the database.
 
 ## Usage Examples
 ![Login](./Login.png)
