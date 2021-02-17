@@ -1,6 +1,8 @@
 # Simple-Chatting-Application
 Simple chatting application using Restful API, WebSocket, Stomp, and SQL in java.
 
+Check Server https://github.com/Naehyung/Simple-Chatting-Application-Server
+
 ## Features
 - User Login.
 - Create an user.
